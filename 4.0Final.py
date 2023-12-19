@@ -39,7 +39,7 @@ external_stylesheets = [
 
 # Initialize the Dash app with Bootstrap styles and external stylesheets
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-
+server=app.server
 
 # Initialize a dictionary to store the last sent message timestamps for each sensor
 last_message_timestamps = {}
