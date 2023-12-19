@@ -1,0 +1,8 @@
+pymongo
+pandas
+datetime
+dash
+dash_bootstrap_components
+plotly.express
+numpy
+requests
